@@ -1,0 +1,9 @@
+a=int(input())
+b=int(input())
+c=int(input())
+if(a>c):
+  print("no")
+elif(b>c):
+  print("no")
+else:
+  print(3)
