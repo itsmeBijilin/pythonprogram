@@ -1,5 +1,8 @@
-input=3
-if(input%2==0):
-	print("even")
+z=int(input())
+if (z%2==0):
+	print("Even")
+elif (z/2<0):
+	print("Invalid")
 else:
-	print("odd")
+	print("Odd")
+
