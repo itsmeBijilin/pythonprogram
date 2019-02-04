@@ -1,6 +1,3 @@
-a=2
-b=0
-while(a>0):
-	b=b+a
-	a=a-1
-print(b)	
+a=int(input())
+a=int((a*(a+1))/2)
+print(a)	
