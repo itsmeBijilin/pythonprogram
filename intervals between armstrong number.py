@@ -1,6 +1,6 @@
-lower = int(input())
-upper = int(input())
-for num in range(lower, upper + 1):
+int1 = int(input())
+int2 = int(input())
+for num in range(int1, int2 + 1):
    order = len(str(num))
    sum = 0
    temp = num
